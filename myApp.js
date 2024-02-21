@@ -1,7 +1,5 @@
-var express = require('express');
-var app = express();
-
-
+const express = require('express');
+const app = express();
 
 
 let helmet = require('helmet')
@@ -43,8 +41,15 @@ let helmet = require('helmet')
 
 
 
+
+
+
+
+
+
 module.exports = app;
 const api = require('./server.js');
+const helmet = require('helmet');
 app.use(express.static('public'));
 app.disable('strict-transport-security');
 app.use('/_api', api);
