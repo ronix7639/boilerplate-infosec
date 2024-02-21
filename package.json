@@ -4,11 +4,11 @@
 	"description": "fcc backend boilerplate",
 	"main": "server.js",
 	"scripts": {
-		"start": "npm start myApp.js"
+		"start": "node myApp.js"
 	},
 	"dependencies": {
 		"express": "^4.14.0",
-		"helmet": "^3.21.3"
+		"helmet": "^3.23.3"
 	},
 	"keywords": [
 		"node",
